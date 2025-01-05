@@ -8,6 +8,8 @@ import { Collections } from '@/components/home/Collections';
 import { About } from '@/components/home/About';
 import { Newsletter } from '@/components/shared/Newsletter';
 import MarqueeDemo from '@/components/layout/Review/Review';
+import Xtra from '@/components/home/extra1';
+import Available from '@/components/home/Available';
 
 export default function HomePage() {
   const [theme, setTheme] = useState('light');
@@ -31,6 +33,8 @@ export default function HomePage() {
       <Header />
       <Hero />
       <Collections />
+      <Xtra />
+      <Available />
       <About />
       <Newsletter />
       <MarqueeDemo />

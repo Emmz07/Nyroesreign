@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   experimental: {
     appDocumentPreloading: true,
   },
+  images: {
+    domains: ['images.unsplash.com'],
+  },
 };
 
 export default nextConfig;
