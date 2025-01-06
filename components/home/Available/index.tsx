@@ -10,9 +10,8 @@ export default function Available() {
             <SparklesIcon className="w-5 h-5 text-black" />
             SPOTLIGHT
           </p>
-          <h1 className="text-4xl md:text-6xl font-serif mb-4 text-black">Explore Our</h1>
-          <p className="text-4xl md:text-6xl font-serif italic text-[#E4A08C]">
-            Seasonal Highlights
+          <p className="text-4xl md:text-6xl font-serif  text-black">
+            Seasonal Showcase
           </p>
         </div>
         <SeasonalHighlights />

@@ -36,8 +36,8 @@ export default function HomePage() {
       <Xtra />
       <Available />
       <About />
-      <Newsletter />
       <MarqueeDemo />
+      <Newsletter />
       <Footer />
     </>
   );

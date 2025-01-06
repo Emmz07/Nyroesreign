@@ -3,17 +3,17 @@ export function About() {
       <section id="about" className="py-20 bg-black text-white">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
+            <div  className="px-7">
               <h2 className="text-4xl font-bold mb-6">Our Story</h2>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-300 mb-4">
                 Founded in 2024, LUXE emerged from a vision to create timeless pieces that transcend seasonal trends. 
                 Our commitment to sustainable fashion and ethical manufacturing sets us apart in the industry.
               </p>
-              <p className="text-gray-600 mb-6">
+              <p className="text-gray-300 mb-6">
                 Every piece in our collection is thoughtfully designed and crafted with attention to detail, 
                 ensuring both quality and style that lasts.
               </p>
-              <div className="grid grid-cols-3 gap-4 text-center">
+              <div className="grid grid-cols-3 mt-9 gap-4 text-center">
                 <div>
                   <h3 className="text-3xl font-bold mb-2">50+</h3>
                   <p className="text-gray-600">Artisans</p>

@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button';
 
 export function Newsletter() {
   return (
-    <section className="bg-white text-black py-20">
+    <section className="bg-black text-white py-20">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold mb-4">Join Our Newsletter</h2>
         <p className="mb-8 max-w-2xl mx-auto">

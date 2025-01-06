@@ -41,20 +41,17 @@ export default function ProductCard({
           </Button>
         </div>
       </div>
-      <div className="mt-4 space-y-2 absolute bottom-4 left-4 text-white px-3 py-1 text-sm font-medium z-10">
-        <h3 className="text-xl font-serif text-black font-lg">{name}</h3>
+      <div className="mt-4 space-y-2 absolute bottom-4 left-4 text-white px-3 py-1 text-lg font-medium z-10">
+        <h3 className="text-xl font-serif text-white ">{name}</h3>
         <div className="flex items-center gap-2">
-          <span className="text-lg font-medium text-black">${price}</span>
+          <span className="text-lg font-medium text-white">${price}</span>
           {originalPrice && ( 
-            <span className="text-sm text-muted-foreground line-through text-black">
+            <span className="text-sm line-through text-white/60">
               ${originalPrice}
             </span>
           )}
         </div>
-        <Button className="w-full gap-2 bg-black hover:bg-gray-800">
-          <ShoppingCart className="w-4 h-4" />
-          ADD TO CART
-        </Button>
+        <Button variant="outline" className="mt-4"><ShoppingCart className="w-4 h-4" /> ADD TO CART</Button>
       </div>
     </div>
   );
